@@ -1,0 +1,55 @@
+Database - Collection of related Database. Also, a container which holds our data in a logical manner.
+
+DBMS - An organized way of retrieving storing and managing data from a database. It is a software which interacts with the database.
+
+Types of DBMS  
+    1. Relational DBMS
+    2. Object oriented DBMS
+    3. Network DBMS
+    4. Hirerarchial DBMS
+
+DBMS architecture
+    1. 1-Tier: Application, db server everything running on the same machine
+    2. 2-Tier: Basic client-server architecture, where application runs on client side and communicates with db server using db drivers(ex. JDBC)
+    3. 3-Tier: Additional layer between client and database. Client->Application Server->Database
+
+
+
+
+Languages in DBMS
+    DDL – Data Definition Language
+        CREATE
+        ALTER
+        DROP
+        RENAME
+        TRUNCATE
+        COMMENT
+
+    DQL – Data Query Language
+        SELECT
+
+    DML – Data Manipulation Language
+        INSERT
+        UPDATE
+        DELETE
+
+    DCL – Data Control Language
+        GRANT
+        REVOKE
+
+    TCL(transaction Control Language): TCL commands deal with the transaction within the database. 
+        Examples of TCL commands: 
+        COMMIT– commits a Transaction.
+        ROLLBACK– rollbacks a transaction in case of any error occurs.
+        SAVEPOINT– sets a savepoint within a transaction.
+        SET TRANSACTION– specify characteristics for the transaction.
+
+Instance, Schema, Sub-Schema
+    Instance: Snapshot of the database at a particular moment.
+    Schema: It is the overall description or the overall design of the database specified during the database design.
+    Sub-schema: It can be defined as the subset or sub-level of schema that has the same properties as the schema. ex Views
+
+Different levels of abstraction in DBMS
+    1. Physical level
+    2. logical level
+    3. View level
