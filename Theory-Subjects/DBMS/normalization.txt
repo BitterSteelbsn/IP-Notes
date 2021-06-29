@@ -1,0 +1,18 @@
+
+1NF
+    -Each column must have a single value.
+    -remove repeating groups. make atomic
+    -All values in a column must be of same Type
+    -Each column must be unique
+    -no two rows in a table can be identical
+
+
+2NF
+    -Already in 1NF
+    -Remove all partial dependencies(non-key attributes are dependent on pk)
+    -Note: tables having single column for key are automatically in 2NF
+
+3NF
+    -Already in 2NF
+    -No transitive dependencies
+BCNF
