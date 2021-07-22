@@ -43,3 +43,43 @@ int main(int argc, char const *argv[]) {
 
     return 0;
 }
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+basically tells us whether the passed “first” argument should be placed before the passed “second” argument or not. 
+bool cmpf(pair<int, int> a, pair<int, int> b) {
+	if (a.first == b.first) {
+		return a.second <= b.second;
+	}
+	return a.first <= b.first;
+}
+
+int main() {
+    int s, n;
+    cin >> s >> n;
+    int xi, yi;
+    std::vector<pair<int, int>> v;
+
+    for (int i = 0; i < n; i++) {
+    	cin >> xi >> yi;
+    	v.push_back(make_pair(xi, yi));
+    }
+
+    for (std::vector<pair<int, int>>::iterator i = v.begin(); i != v.end(); ++i)
+    {
+    	cout << i->first << " " << i->second << endl;
+    }
+    
+    sort(v.begin(), v.end(), cmpf);
+    cout << "sorted" <<endl;
+
+    for (std::vector<pair<int, int>>::iterator i = v.begin(); i != v.end(); ++i)
+    {
+    	cout << i->first << " " << i->second << endl;
+    }
+
+    return 0;
+}
+*/
