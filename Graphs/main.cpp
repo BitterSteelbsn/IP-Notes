@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define MAX 20
 
 void addEdge(vector<int> graph[], int u, int v) {
     graph[u].push_back(v);
@@ -44,6 +45,29 @@ vector<int>bfsOfGraph(int V, vector<int> adj[]) {
     }
 
     return ans;
+}
+
+vector<int> dfsOfGraph(vector<int> g[], int v, int s) {
+    vector<int> dfs;
+    int visited[MAX] = {0};
+    stack<int> st;
+
+    st.push(s);
+    visited[s] = 1;
+    dfs.push_back(s);
+
+    while (!st.empty()) {
+        int cv = st.top();st.pop();
+                
+    }
+
+
+
+
+
+
+
+
 }
 
 int main(int argc, char const *argv[]) {

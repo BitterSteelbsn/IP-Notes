@@ -1,0 +1,21 @@
+Network Architectures
+    1. Peer-to-Peer: All connected computers have equal privilege
+    2. Client-Server: Server serves the clients
+
+Network Components
+    1. Network Interface Card
+    2. Network devices
+    3. Medium
+
+Models: Networking is complex task achieved by Layered Architecture 
+    1. OSI Model (Open Systems Interconnection)
+        -Consists of seven layers, and each layer performs a particular network function.
+        -layers: please do not throw sausage pizza away
+            APPLICATION : provides networking services to the user.
+            PRESENTATION : it is responsible for translation, compression, encryption of the data to be sent
+            SESSION : it is used to establish, manage, & terminate the sessions
+            TRANSPORT : it provides reliable message delivery from rocess to proces
+            NETWORK : responsible for moving packets from source to destination
+            DATA LINK : error control and flow control
+            PHYSICAL : physical medium for data delivery, transmit individual bits
+        -
